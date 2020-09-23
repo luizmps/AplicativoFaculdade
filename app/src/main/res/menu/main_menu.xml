@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/dashboard_icon"
+            android:title="Home" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Informações Faculdade">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_carterinha"
+                    android:icon="@drawable/carterinha_icon"
+                    android:title="Carterinha" />
+
+                <item
+                    android:id="@+id/nav_grade"
+                    android:icon="@drawable/grade_horaria_icon"
+                    android:title="Grade Horaria" />
+
+                <item
+                    android:id="@+id/nav_notas"
+                    android:icon="@drawable/notas_icon"
+                    android:title="Notas" />
+
+                <item
+                    android:id="@+id/nav_contato"
+                    android:icon="@drawable/contact_icon"
+                    android:title="Contato" />
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Configurações">
+
+
+            <menu>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile_icon"
+                    android:title="Perfil" />
+
+                <item
+                    android:id="@+id/nav_notification"
+                    android:icon="@drawable/notifications_icon"
+                    android:title="Notificações" />
+
+                <item
+                    android:id="@+id/nav_configuration"
+                    android:icon="@drawable/settings_icon"
+                    android:title="Configurações" />
+
+            </menu>
+        </item>
+    </group>
+
+</menu>

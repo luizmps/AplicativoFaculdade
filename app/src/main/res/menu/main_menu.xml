@@ -10,11 +10,11 @@
 
     </group>
 
-    <group android:checkableBehavior="single">
         <item
             android:title="Informações Faculdade">
 
             <menu>
+                <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/nav_carterinha"
                     android:icon="@drawable/carterinha_icon"
@@ -34,17 +34,18 @@
                     android:id="@+id/nav_contato"
                     android:icon="@drawable/contact_icon"
                     android:title="Contato" />
-
+                </group>
             </menu>
         </item>
-    </group>
 
-    <group android:checkableBehavior="single">
+
+
         <item
             android:title="Configurações">
 
 
             <menu>
+                <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/nav_profile"
                     android:icon="@drawable/profile_icon"
@@ -59,9 +60,9 @@
                     android:id="@+id/nav_configuration"
                     android:icon="@drawable/settings_icon"
                     android:title="Configurações" />
-
+                </group>
             </menu>
         </item>
-    </group>
+
 
 </menu>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/bem_vindo"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:text="Luiz Adolfo Martins Paiva"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="30dp">
+
+                    <ImageView
+                        android:id="@+id/dashboard_img_pic"
+                        android:layout_width="62dp"
+                        android:layout_height="62dp"
+                        android:src="@drawable/perfil"
+                        android:contentDescription="TODO">
+                    </ImageView>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_background"
+                android:layout_marginTop="10dp">
+
+                <GridLayout
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:columnCount="2"
+                    android:rowCount="3"
+                    android:columnOrderPreserved="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dashboard_img_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="6dp"
+                        app:cardCornerRadius="12dp"
+                        android:layout_margin="12dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/profile_icon_dashboard"
+                                />
+
+                            <TextView
+                                android:gravity="center"
+                                android:textSize="20sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Perfil"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/carteirinha_img_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="6dp"
+                        app:cardCornerRadius="12dp"
+                        android:layout_margin="12dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/carterinha_icon_dashboard"
+                                />
+
+                            <TextView
+                                android:gravity="center"
+                                android:textSize="20sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="carteirinha "/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="6dp"
+                        app:cardCornerRadius="12dp"
+                        android:layout_margin="12dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/grade_icon_dashbaord"
+                                />
+
+                            <TextView
+                                android:gravity="center"
+                                android:textSize="20sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Grade Horaria"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="6dp"
+                        app:cardCornerRadius="12dp"
+                        android:layout_margin="12dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/notas_icon_dashboard"
+                                />
+
+                            <TextView
+                                android:gravity="center"
+                                android:textSize="20dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Notas"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="6dp"
+                        app:cardCornerRadius="12dp"
+                        android:layout_margin="12dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/contato_icon_dashbaord"
+                                />
+
+                            <TextView
+                                android:gravity="center"
+                                android:textSize="20sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Contato"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="6dp"
+                        app:cardCornerRadius="12dp"
+                        android:layout_margin="12dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/notification_icon_dashbaord"
+                                />
+
+                            <TextView
+                                android:gravity="center"
+                                android:textSize="20sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Notificações"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="6dp"
+                        app:cardCornerRadius="12dp"
+                        android:layout_margin="12dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/configuracao_icon_dashbaord"
+                                />
+
+                            <TextView
+                                android:gravity="center"
+                                android:textSize="20sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Configurações"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </GridLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

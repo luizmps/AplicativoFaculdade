@@ -38,17 +38,11 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
 
-        //Drawer Open on click dashboard pic
-        /*findViewById(R.id.dashboard_img_pic).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                drawerLayout.openDrawer(GravityCompat.START);
-            }
-        });*/
-
         //Controle de Telas Fragment
+        navigationView.bringToFront();
         NavController navController = Navigation.findNavController(this,R.id.navHostFragment);
         NavigationUI.setupWithNavController(navigationView, navController);
 
     }
+
 }

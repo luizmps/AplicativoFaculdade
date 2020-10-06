@@ -21,8 +21,8 @@ public class CarteirinhaFragment extends Fragment {
 
         View fragCart = inflater.inflate(R.layout.fragment_carteirinha, container, false);
 
-        TextView tv = (TextView) fragCart.findViewById(R.id.headtext);
-        tv.setText("Luiz Adolfo Martins Paiva");
+        //TextView tv = (TextView) fragCart.findViewById(R.id.cart_name);
+        //tv.setText("Luiz Adolfo Martins Paiva");
         return fragCart;
     }
 }

@@ -6,5 +6,6 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bem_vindo">Bem Vindo</string>
+    <string name="seja_bem_vindo_estudante">Seja Bem vindo Estudante</string>
 
 </resources>

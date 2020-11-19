@@ -34,11 +34,11 @@
                     android:textColor="@color/colorWhite"/>
 
                 <TextView
+                    android:id="@+id/username"
                     android:layout_alignParentEnd="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30sp"
-                    android:text="Luiz Adolfo Martins Paiva"
                     android:textColor="@color/colorWhite"
                     android:textSize="18sp" />
 
@@ -145,6 +145,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/grade_img_button"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_columnWeight="1"
@@ -178,6 +179,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/notas_img_button"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_columnWeight="1"
@@ -211,6 +213,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/contato_img_button"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_columnWeight="1"
@@ -244,39 +247,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_columnWeight="1"
-                        android:layout_rowWeight="1"
-                        app:cardElevation="6dp"
-                        app:cardCornerRadius="12dp"
-                        android:layout_margin="12dp">
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:padding="16dp"
-                            android:gravity="center"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <ImageView
-                                android:layout_width="100dp"
-                                android:layout_height="100dp"
-                                android:src="@drawable/notification_icon_dashbaord"
-                                />
-
-                            <TextView
-                                android:gravity="center"
-                                android:textSize="20sp"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:text="Notificações"/>
-
-                        </LinearLayout>
-
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
+                        android:id="@+id/config_img_button"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_columnWeight="1"
@@ -304,6 +275,40 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:text="Configurações"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/sair_img_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="6dp"
+                        app:cardCornerRadius="12dp"
+                        android:layout_margin="12dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/notification_icon_dashbaord"
+                                />
+
+                            <TextView
+                                android:gravity="center"
+                                android:textSize="20sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Sair"/>
 
                         </LinearLayout>
 

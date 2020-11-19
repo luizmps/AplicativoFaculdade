@@ -12,10 +12,52 @@
         <action
             android:id="@+id/action_nav_home_to_nav_carterinha"
             app:destination="@id/nav_carterinha" />
+        <action
+            android:id="@+id/action_nav_home_to_perfilFragmente"
+            app:destination="@id/nav_profile" />
+        <action
+            android:id="@+id/action_nav_home_to_gradeFragment"
+            app:destination="@id/nav_grade" />
+        <action
+            android:id="@+id/action_nav_home_to_notasFragment"
+            app:destination="@id/nav_notas" />
+        <action
+            android:id="@+id/action_nav_home_to_contatosFragment"
+            app:destination="@id/nav_contato" />
+        <action
+            android:id="@+id/action_nav_home_to_configFragment"
+            app:destination="@id/nav_configuration" />
     </fragment>
+
     <fragment
         android:id="@+id/nav_carterinha"
         android:name="com.example.faculdadefacil.CarteirinhaFragment"
         android:label="Carterinha"
         tools:layout="@layout/fragment_carteirinha" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.faculdadefacil.PerfilFragmente"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/nav_grade"
+        android:name="com.example.faculdadefacil.GradeFragment"
+        android:label="Grade"
+        tools:layout="@layout/fragment_grade" />
+    <fragment
+        android:id="@+id/nav_notas"
+        android:name="com.example.faculdadefacil.NotasFragment"
+        android:label="Notas"
+        tools:layout="@layout/fragment_notas" />
+    <fragment
+        android:id="@+id/nav_contato"
+        android:name="com.example.faculdadefacil.ContatosFragment"
+        android:label="Contatos"
+        tools:layout="@layout/fragment_contatos" />
+    <fragment
+        android:id="@+id/nav_configuration"
+        android:name="com.example.faculdadefacil.ConfigFragment"
+        android:label="Configuracoes"
+        tools:layout="@layout/fragment_config" />
 </navigation>

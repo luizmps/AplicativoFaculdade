@@ -28,7 +28,7 @@
                 android:src="@drawable/profile_icon_dashboard" />
 
             <TextView
-                android:layout_width="60dp"
+                android:layout_width="86dp"
                 android:layout_height="25dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="20dp"
@@ -44,7 +44,44 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="45dp"
                 android:fontFamily="sans-serif-smallcaps"
-                android:text="Luiz Adolfo Martins Paiva"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Curso:"
+                android:textColor="@color/colorRed"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/cart_curso"
+                android:layout_width="325dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="105dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Validade:"
+                android:textColor="@color/colorRed"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/cart_validade"
+                android:layout_width="325dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="165dp"
+                android:fontFamily="sans-serif-smallcaps"
                 android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>

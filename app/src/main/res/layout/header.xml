@@ -26,12 +26,12 @@
 
     <TextView
         android:id="@+id/drawer_name"
-        android:gravity="bottom"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:gravity="bottom"
         android:text="Luiz Adolfo Martins Paiva"
-        android:textSize="20dp"
         android:textColor="@color/colorWhite"
-        android:layout_marginLeft="20dp"/>
+        android:textSize="20dp" />
 
 </LinearLayout>

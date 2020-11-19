@@ -35,7 +35,7 @@ Oque podemos fazer no App:
 
 Luiz Adolfo - Luiz_adolfo10@hotmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Link Do Projeto: [https://github.com/luizmps/AplicativoFaculdade](https://github.com/luizmps/AplicativoFaculdade)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->

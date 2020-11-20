@@ -1,4 +1,5 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url1]
 
 <!-- PROJECT LOGO -->
 <p align="center">
@@ -34,6 +35,7 @@ Oque podemos fazer no App:
 ## Contato
 
 Luiz Adolfo - Luiz_adolfo10@hotmail.com
+Vitoria Fernadez - vivi.mf@icloud.com
 
 Link Do Projeto: [https://github.com/luizmps/AplicativoFaculdade](https://github.com/luizmps/AplicativoFaculdade)
 
@@ -42,3 +44,4 @@ Link Do Projeto: [https://github.com/luizmps/AplicativoFaculdade](https://github
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/luiz-adolfo-756744131/
+[linkedin-url1]: https://www.linkedin.com/in/vit%C3%B3ria-m-a339a113b/
